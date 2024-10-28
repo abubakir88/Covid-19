@@ -248,4 +248,66 @@ main .symptomps .symptomps_title p {
 }
 main .symptomps img {
   max-width: 1000px;
+}
+main .should {
+  padding-top: 100px;
+}
+main .should .should_content {
+  display: flex;
+  flex-direction: column;
+}
+main .should .should_content .should_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 72px;
+}
+main .should .should_content .should_title h4 {
+  color: var(--primary-color);
+  font-size: 28px;
+}
+main .should .should_content .should_title h1 {
+  color: #035755;
+  font-size: 50px;
+}
+main .should .should_content .should_title p {
+  text-align: center;
+  color: #4b4f51;
+  max-width: 600px;
+  line-height: 38px;
+}
+main .should .should_content .main .main_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .should .should_content .main .main_content .texts {
+  display: flex;
+  gap: 40px;
+}
+main .should .should_content .main .main_content .texts .number {
+  height: -moz-min-content;
+  height: min-content;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background: #fee6e5;
+  border-radius: 50%;
+}
+main .should .should_content .main .main_content .texts .main_text h1 {
+  color: #035755;
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+main .should .should_content .main .main_content .texts .main_text p {
+  max-width: 460px;
+  color: #4b4f51;
+  line-height: 40px;
+}
+main .should .should_content .main .main_content:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=style.css.map */
