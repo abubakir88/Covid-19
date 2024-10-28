@@ -29,13 +29,12 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  border-bottom: 5px solid var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
 }
 header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0;
 }
 header nav .nav_items {
   display: flex;
@@ -220,4 +219,35 @@ main .contagion .contagion_content .cards .card .card_content .card_texts p {
 main .contagion .contagion_content .cards .card:hover {
   box-shadow: 0px 35px 87px 0px rgba(0, 0, 0, 0.1098039216);
   border-bottom: 6px solid var(--primary-color);
+}
+main .symptomps {
+  display: flex;
+  flex-direction: column;
+}
+main .symptomps .symptomps_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .symptomps .symptomps_title h4 {
+  color: var(--primary-color);
+  font-size: 28px;
+  font-weight: 700;
+}
+main .symptomps .symptomps_title h1 {
+  color: #035755;
+  font-size: 50px;
+  font-weight: 700;
+}
+main .symptomps .symptomps_title p {
+  max-width: 620px;
+  text-align: center;
+  color: #4b4f51;
+  line-height: 38px;
+}
+main .symptomps:last-child {
+  text-align: center;
+}
+main .symptomps img {
+  max-width: 1000px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,7 @@
 :root {
   --primary-color: #fb4c47;
 }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -29,12 +30,11 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  border-bottom: 5px solid var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
   nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
     .logo {
     }
     .nav_items {
@@ -254,6 +254,37 @@ main {
           }
         }
       }
+    }
+  }
+  .symptomps {
+    display: flex;
+    flex-direction: column;
+    .symptomps_title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h4 {
+        color: var(--primary-color);
+        font-size: 28px;
+        font-weight: 700;
+      }
+      h1 {
+        color: #035755;
+        font-size: 50px;
+        font-weight: 700;
+      }
+      p {
+        max-width: 620px;
+        text-align: center;
+        color: #4b4f51;
+        line-height: 38px;
+      }
+    }
+    &:last-child {
+      text-align: center;
+    }
+    img {
+      max-width: 1000px;
     }
   }
 }
