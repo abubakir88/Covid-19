@@ -35,8 +35,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .logo {
-    }
     .nav_items {
       display: flex;
       align-items: center;
@@ -259,6 +257,7 @@ main {
   .symptomps {
     display: flex;
     flex-direction: column;
+    text-align: center;
     .symptomps_title {
       display: flex;
       flex-direction: column;
@@ -280,9 +279,7 @@ main {
         line-height: 38px;
       }
     }
-    &:last-child {
-      text-align: center;
-    }
+
     img {
       max-width: 1000px;
     }

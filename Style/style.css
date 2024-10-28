@@ -223,6 +223,7 @@ main .contagion .contagion_content .cards .card:hover {
 main .symptomps {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 main .symptomps .symptomps_title {
   display: flex;
@@ -244,9 +245,6 @@ main .symptomps .symptomps_title p {
   text-align: center;
   color: #4b4f51;
   line-height: 38px;
-}
-main .symptomps:last-child {
-  text-align: center;
 }
 main .symptomps img {
   max-width: 1000px;
