@@ -360,4 +360,27 @@ main .live .email-input button {
 }
 main .live .email-input button:hover {
   background-color: #ff2f2f;
+}
+
+footer {
+  padding-top: 100px;
+}
+footer .line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .line .foot_items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+footer .line .social {
+  display: flex;
+  gap: 20px;
+}
+footer p {
+  margin-top: 30px;
+  text-align: center;
+  color: #415e56;
 }/*# sourceMappingURL=style.css.map */

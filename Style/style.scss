@@ -403,3 +403,26 @@ main {
     }
   }
 }
+
+footer {
+  padding-top: 100px;
+  .line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .foot_items {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+    .social {
+      display: flex;
+      gap: 20px;
+    }
+  }
+  p {
+    margin-top: 30px;
+    text-align: center;
+    color: #415e56;
+  }
+}
